@@ -1,2 +1,65 @@
 @import './common';
 @import './example';
+
+.search-form {
+  margin-bottom: 5px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  background-color: blue;
+  padding: 10px;
+}
+
+input[type='text'] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 300px;
+  margin-right: 10px;
+}
+
+button[type='submit'] {
+  padding: 10px 20px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+  margin-top: 60px;
+}
+
+.gallery img {
+  width: 22vw;
+  border-radius: 5px;
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.info-item{
+    display: flex;
+    flex-direction: column;
+}
+
+.load-more {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: blue;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
